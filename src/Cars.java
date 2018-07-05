@@ -9,5 +9,9 @@
         System.out.println("Samochód 2:");
         System.out.println("Marka: " + car2.brand + ", model: " + car2.model +
                 ", rocznik: " + car2.year + ", pojemność: " + car2.capacity);
+
+        System.out.println();
+        System.out.printf("Samochod 1:\nMarka: %s, model: %s, rocznik: %d, pojemnosc: %.1f\n", car1.brand, car1.model, car1.year, car1.capacity);
+        System.out.printf("Samochod 2:\nMarka: %s, model: %s, rocznik: %d, pojemnosc: %.1f", car2.brand, car2.model, car2.year, car2.capacity);
     }
 }
